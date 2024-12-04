@@ -1,0 +1,692 @@
+/**nav**/
+header {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #d61c22;
+}
+
+.navbar-top-border {
+  border-top: #d61c22 4px solid;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1000;
+  position: fixed;
+  transition: all 2s;
+}
+
+/**carousel**/
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-caption h5 {
+  font-family: Courgette;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 80px;
+  margin-top: -260px;
+}
+
+.carousel-caption h1 {
+  font-family: Poppins serif;
+  font-weight: 1000;
+  font-size: 90px;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+}
+
+.carousel-caption #menu {
+  background-color: white;
+  color: #d61c22;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  width: 160px;
+  margin-top: -100px;
+}
+
+.carousel-caption #menu:hover {
+  background-color: #d61c22;
+  color: white;
+}
+
+.carousel-caption {
+  display: inline-block;
+  text-align: center;
+  margin-top: -200px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #d61c22;
+  border: 2px solid white;
+}
+/**first section **/
+.menu-section {
+  background-image: url(../images/pattern2.png);
+  background-repeat: repeat;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.menu {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.row-col {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-weight: bold;
+  font-size: 1.2em;
+  height: 245px;
+}
+
+.menu-section .col {
+  padding: 0;
+  height: 500px;
+}
+
+.menu-section p {
+  font-family: Courgette;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  font-style: italic;
+  font-weight: 1000;
+}
+
+.menu-section h1 {
+  font-family: Poppins serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+}
+
+.hov-img-zoom:hover {
+  background-size: 110%;
+  transition: all 0.3;
+  cursor: pointer;
+}
+
+/**second section**/
+.sugg {
+  background-color: white;
+  padding: 60px 0;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sugg p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+}
+
+.sugg a > h5 {
+  text-transform: uppercase;
+  color: black;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 4px;
+}
+
+.sugg .card-body {
+  position: relative;
+  left: -14px;
+}
+
+.sugg .btn {
+  position: relative;
+  left: -14px;
+  top: -30px;
+  font-size: 14px;
+}
+
+.card > img {
+  border-radius: 10px;
+}
+
+.card {
+  border: 0;
+}
+
+.card-body a:hover {
+  color: #d61c22;
+}
+
+.card-img-top:hover {
+  background-size: 110%;
+}
+
+.intro {
+  background-image: url(../images/bg-intro-01.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.intro p {
+  font-family: Courgette;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  font-style: italic;
+  font-weight: 1000;
+}
+
+.intro h1 {
+  font-family: Poppins serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: white;
+}
+
+.welcome {
+  padding: 90px 0;
+  text-align: center;
+  background-image: url(../images/pattern2.png);
+  background-repeat: repeat;
+}
+
+.welcome a:hover {
+  color: #d61c22;
+}
+
+.welcome .red {
+  font-family: Courgette;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  font-style: italic;
+  font-weight: 1000;
+}
+
+.welcome h1 {
+  font-family: Poppins serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: black;
+}
+
+.welcome .not-red,
+.welcome a {
+  font-family: Poppins serif;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666666;
+}
+
+/**fifth section **/
+.fifth-section {
+  background-image: url(../images/bg-event-01.jpg);
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  padding: 100px 0;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.fifth-section .container-fluid .row .col > p {
+  font-family: Courgette;
+  max-width: 300px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  font-style: italic;
+  text-align: center;
+  font-weight: 1000;
+}
+
+.fifth-section .container-fluid .row .col > h1 {
+  font-family: Poppins serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  max-width: 300px;
+  word-spacing: 8px;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  margin-top: -10px;
+}
+
+.fifth-section img {
+  border-left: #d61c22 30px solid;
+  border-radius: 5px;
+  width: 400px;
+  height: 100%;
+  display: block;
+}
+
+.position-center {
+  display: flex;
+  justify-content: center;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth-section .events {
+  background-color: white;
+  padding: 30px;
+  height: 84%;
+  text-align: center;
+  width: 600px;
+}
+
+.fifth-section .upcoming {
+  transform: scaleX(-100px);
+}
+
+/**sixth section**/
+.sixth-section {
+  padding: 60px 0;
+  text-align: center;
+  background-image: url(../images/pattern2.png);
+  background-repeat: repeat;
+}
+
+.sixth-section .input-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sixth-section .p-title {
+  font-family: Courgette;
+  max-width: 300px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  font-style: italic;
+  font-weight: 1000;
+  text-align: center;
+  position: relative;
+  left: 270px;
+}
+
+.sixth-section .h-title {
+  font-family: Poppins serif;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  word-spacing: 7px;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: -10px;
+  color: black;
+  text-align: center;
+  position: relative;
+  left: -50px;
+}
+
+.sixth-section input {
+  width: 250px;
+  border: 2px solid #d9d9d9;
+  padding: 10px;
+  border-radius: 10px;
+  color: #666;
+}
+
+.sixth-section .col-md-6 p {
+  padding-left: 110px;
+  display: flex;
+  justify-content: flex-start;
+  color: #666;
+}
+
+.sixth-section .col-md-3 p {
+  display: flex;
+  justify-content: flex-start;
+  color: #666;
+}
+
+.sixth-section button {
+  border: 0;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  position: relative;
+  left: -250px;
+  top: 30px;
+}
+
+.sixth-section button:hover {
+  color: white;
+  background-color: #d61c22;
+}
+
+.sixth-section .img-reservation {
+  position: relative;
+  left: -100px;
+}
+
+/*seventh section*/
+.seventh-section {
+  background-color: white;
+  padding: 60px 0;
+  text-transform: capitalize;
+}
+
+.seventh-section .fa-star {
+  color: #d61c22;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.seventh-section .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.seventh-section h1 {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-family: Poppins sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.seventh-section .tit {
+  font-family: Courgette;
+  max-width: 300px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22 !important;
+  font-style: italic;
+  font-weight: 1000;
+  position: relative;
+  left: 440px;
+}
+
+.seventh-section q,
+.seventh-section p {
+  text-align: center;
+  color: #666;
+}
+
+.seventh-section .stars {
+  display: inline-block;
+  text-align: center;
+}
+
+.seventh-section img {
+  border: #d61c22 solid 4px;
+  border-radius: 50%;
+  position: relative;
+  left: 530px;
+}
+
+/* eighth section */
+.eighth-section {
+  background-image: url(../images/bg-intro-04.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.eighth-section p {
+  font-family: Courgette;
+  max-width: 300px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  font-style: italic;
+  font-weight: 1000;
+  text-align: center;
+  position: relative;
+  left: 520px;
+}
+
+.eighth-section h1 {
+  font-family: Poppins serif;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  word-spacing: 7px;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: -10px;
+  color: white;
+  text-align: center;
+}
+
+.eighth-section .fa-circle-play {
+  font-size: 70px;
+  color: white;
+}
+
+.eighth-section .fa-circle-play:hover {
+  color: #d61c22;
+  cursor: pointer;
+}
+
+/* ninth section */
+.ninth-section {
+  background-color: white;
+  padding: 100px 0;
+}
+
+.ninth-section .tit-p {
+  font-family: Courgette;
+  max-width: 300px;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #d61c22;
+  font-style: italic;
+  font-weight: 1000;
+  text-align: center;
+  position: relative;
+  left: 520px;
+}
+
+.ninth-section .tit-h {
+  font-family: Poppins serif;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  word-spacing: 7px;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: -10px;
+  color: black;
+  text-align: center;
+}
+
+.ninth-section .card-body {
+  position: relative;
+  left: -14px;
+}
+
+.ninth-section .btn {
+  position: relative;
+  left: -14px;
+  font-size: 12px;
+  top: -30px;
+}
+
+.ninth-section .card-body a h5:hover {
+  color: #d61c22;
+}
+
+/* tenth section */
+.tenth-section {
+  background-image: url(../images/pattern2.png);
+  background-repeat: repeat;
+  padding: 100px 0;
+}
+
+.tenth-section .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.tenth-section input {
+  border: 3px solid #d9d9d9;
+  padding: 10px;
+  border-radius: 10px;
+  width: 240px;
+}
+
+.tenth-section p {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: Poppins;
+  font-size: 22px;
+  width: 280px;
+  position: relative;
+  top: 4px;
+}
+
+.tenth-section button {
+  border: 0;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+}
+
+.tenth-section button:hover {
+  color: white;
+  background-color: #d61c22;
+}
+
+/* footer */
+footer {
+  background-color: #111;
+  padding: 20px;
+  color: #999;
+  font-size: 14px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.icons .fa-brands {
+  color: white;
+  margin-left: 10px;
+}
+
+.icons .fa-brands:hover {
+  color: #d61c22;
+  cursor: pointer;
+}
+
+/* eleventh section */
+.eleventh-section {
+  background-color: #222;
+  padding: 70px;
+  color: #999;
+}
+
+.eleventh-section h1 {
+  color: white !important;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.eleventh-section a {
+  color: #d61c22;
+  text-decoration: none;
+}
+
+.eleventh-section ul {
+  list-style: none;
+  position: relative;
+  left: -30px;
+  line-height: 2.3;
+}
+
+.eleventh-section .col {
+  max-width: 400px;
+}
+
+.eleventh-section .gallery img {
+  margin-bottom: 5px;
+}
