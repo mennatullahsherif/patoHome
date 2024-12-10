@@ -690,3 +690,9 @@ footer {
 .eleventh-section .gallery img {
   margin-bottom: 5px;
 }
+
+.eleventh-section .gallery img:hover {
+  scale: 1.1;
+  transition: all 0.1s;
+}
+}
